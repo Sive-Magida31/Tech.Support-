@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="request.html">Request Form</a></li>
+            <li><a href="troubleshooting.html">Troubleshooting Questions</a></li>
+            <li><a href="escalation.html">Escalation Procedure</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Request Form</h1>
+        <form>
+            <label for="fullnames">Full Names:</label>
+            <input type="text" id="fullnames" name="fullnames" placeholder="Enter full name">
+
+            <label for="department">Caller Department:</label>
+            <input type="text" id="department" name="department" placeholder="Enter department">
+
+            <label for="datetime">Date and Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+
+            <label for="title">Incident Title:</label>
+            <input type="text" id="title" name="title" placeholder="Enter incident title">
+
+            <label for="urgency">Urgency:</label>
+            <select id="urgency" name="urgency">
+                <option value="VERY URGENT">VERY URGENT</option>
+                <option value="AVERAGE">AVERAGE</option>
+                <option value="NOT URGENT">NOT URGENT</option>
+            </select>
+
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority">
+                <option value="HIGH">HIGH</option>
+                <option value="AVERAGE">AVERAGE</option>
+                <option value="LOW">LOW</option>
+            </select>
+
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="completed">Completed</option>
+                <option value="cancelled">Cancelled</option>
+                <option value="escalated">Escalated</option>
+            </select>
+
+            <label for="escalatedto">If Escalated, to Whom:</label>
+            <input type="text" id="escalatedto" name="escalatedto" placeholder="Enter person if escalated">
+
+            <label for="casual">Casual Incident:</label>
+            <input type="text" id="casual" name="casual" placeholder="Yes or No">
+
+            <label for="solution">Incident Solution:</label>
+            <input type="text" id="solution" name="solution" placeholder="Enter solution details">
+
+            <label for="cancellation">Reason for Cancellation:</label>
+            <input type="text" id="cancellation" name="cancellation" placeholder="Enter reason for cancellation">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

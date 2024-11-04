@@ -1,0 +1,550 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Container for Main Content */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Title */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input and Textarea Fields */
+form input[type="text"],
+form input[type="datetime-local"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input[type="text"]:focus,
+form input[type="datetime-local"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Textarea Field */
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00b8d4;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('tech-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+/* Container and section styling */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.purpose, .how-to {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Hero section styling for troubleshooting page */
+.hero-troubleshooting {
+    background: url('troubleshooting-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-troubleshooting h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-troubleshooting p {
+    font-size: 1.2em;
+}
+
+/* Troubleshooting section styling */
+.troubleshooting-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.troubleshooting-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.troubleshooting-section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.troubleshooting-section p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+/* Hero section styling for escalation page */
+.hero-escalation {
+    background: url('escalation-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-escalation h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-escalation p {
+    font-size: 1.2em;
+}
+
+/* Escalation sections styling */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.escalation-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.escalation-section h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.escalation-level {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #00b8d4;
+}
+
+.escalation-level h2 {
+    font-size: 1.6em;
+    color: #00b8d4;
+    margin-bottom: 10px;
+}
+
+.escalation-level p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+}
+
+.escalation-level ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.escalation-level li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    color: #333;
+}
+
+.escalation-level li strong {
+    color: #00b8d4;
+}
+
+/* Flowchart styling */
+.escalation-flowchart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.escalation-flowchart img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+/* Hero section styling for escalation page */
+.hero-escalation {
+    background: url('escalation-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-escalation h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-escalation p {
+    font-size: 1.2em;
+}
+
+/* Escalation sections styling */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.escalation-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.escalation-section h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.escalation-level {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #00b8d4;
+}
+
+.escalation-level h2 {
+    font-size: 1.6em;
+    color: #00b8d4;
+    margin-bottom: 10px;
+}
+
+.escalation-level p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+}
+
+.escalation-level ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.escalation-level li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    color: #333;
+}
+
+.escalation-level li strong {
+    color: #00b8d4;
+}
+
+/* Flowchart styling */
+.escalation-flowchart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.escalation-flowchart img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+/* Hero section styling for contact page */
+.hero-contact {
+    background: url('contact-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-contact p {
+    font-size: 1.2em;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Contact info styling */
+.contact-info {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #00b8d4;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form styling */
+.contact-form {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #00b8d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #008ba3;
+}
